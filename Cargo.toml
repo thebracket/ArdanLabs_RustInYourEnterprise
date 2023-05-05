@@ -3,6 +3,15 @@ name = "ArdanLabs_RustInYourEnterprise"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+
+[workspace]
+members = [
+    "helloworld_webservice",
+    "hellojson_webservice",
+    "hellodb_webservice",
+    "hellodb_timed_client",
+    "timed_json_serialize",
+    "tcp_server",
+    "tcp_server_client",
+]

@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, world!");
+    println!("You probably intended to run a workspace member.");
 }

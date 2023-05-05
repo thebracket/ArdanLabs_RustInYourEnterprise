@@ -4,7 +4,7 @@
 
 Accompanying code for the presentation at (placeholder).
 
-## Contents
+## Service Oriented Architecture Examples
 
 **Project** | **Description**
 --- | ---
@@ -15,4 +15,10 @@ Accompanying code for the presentation at (placeholder).
 [How fast is the serialization?](./timed_json_serialize/) | Time just the serialization to JSON
 [A TCP Socket Server](./tcp_server/) | A simple TCP socket server that accepts connections, parses a command and returns a JSON result.
 [TCP Socket Client](./tcp_client/) | A TCP client that connects to the TCP server, and times the responses.
+
+## Integrating with Existing Services
+
+**Project** | **Description**
+--- | ---
+[A Python Service](./mymath/) | A simple Python service that exports a Python-friendly function. The included Python script imports the function and executes it.
 

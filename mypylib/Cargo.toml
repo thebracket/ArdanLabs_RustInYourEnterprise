@@ -1,0 +1,11 @@
+[package]
+name = "mypylib"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "mypylib"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.18.3"

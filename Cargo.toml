@@ -15,4 +15,5 @@ members = [
     "tcp_server",
     "tcp_server_client",
     "mypylib",
+    "rustgo/lib/say_hello",
 ]

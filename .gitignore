@@ -2,3 +2,4 @@
 /hellodb_webservice/hello_db*
 mypylib/__pycache__
 mypylib/*.so
+rustgo/rustgo

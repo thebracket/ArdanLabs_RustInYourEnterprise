@@ -21,4 +21,5 @@ Accompanying code for the presentation at (placeholder).
 **Project** | **Description**
 --- | ---
 [A Python Service](./mymath/) | A simple Python service that exports a Python-friendly function. The included Python script imports the function and executes it.
+[Rust from Go](./rustgo/) | A simple Go service that calls a Rust library. The included Go script imports the library and executes it.
 

@@ -7,13 +7,14 @@ edition = "2021"
 
 [workspace]
 members = [
-    "helloworld_webservice",
-    "hellojson_webservice",
-    "hellodb_webservice",
-    "hellodb_timed_client",
-    "timed_json_serialize",
-    "tcp_server",
-    "tcp_server_client",
-    "mypylib",
-    "rustgo/lib/say_hello",
+    "helloworld_webservice",    # Simple Hello World Service
+    "hellojson_webservice",     # Hello World with JSON
+    "hellodb_webservice",       # Hello World with an sqlite database
+    "hellodb_timed_client",     # Timing client for web service
+    "timed_json_serialize",     # Time JSON serialization
+    "tcp_server",               # A TCP Server
+    "tcp_server_client",        # TCP Server Client
+    "mypylib",                  # PyO3 Python Integration
+    "rustgo/lib/say_hello",     # Call Rust from Go and Time It
+    "crust",                    # Migrate Legacy C with Rust
 ]

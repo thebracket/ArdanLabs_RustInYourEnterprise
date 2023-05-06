@@ -2,7 +2,7 @@
 
 ## By Herbert Wolverson ( herbert.wolverson@ardanlabs.com )
 
-Accompanying code for the presentation at (placeholder).
+Accompanying code for the presentation on YouTube.
 
 ## Service Oriented Architecture Examples
 
@@ -22,4 +22,10 @@ Accompanying code for the presentation at (placeholder).
 --- | ---
 [A Python Service](./mymath/) | A simple Python service that exports a Python-friendly function. The included Python script imports the function and executes it.
 [Rust from Go](./rustgo/) | A simple Go service that calls a Rust library. The included Go script imports the library and executes it.
+
+## Migrating Legacy Code
+
+[Rust Building C](./crust)
+
+A C library wrapped in a Rust library, with unit tests calling the legacy code.
 

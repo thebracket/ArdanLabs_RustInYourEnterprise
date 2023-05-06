@@ -11,7 +11,7 @@ presentation is [here](./SlideDeck.pdf).
 
 **Project** | **Description**
 --- | ---
-[Web Server in 16 Lines of Code](./tree/main/hello_webservice) | 16 lines of Rust, using Axum and Tokio to provide a simple web service that returns "Hello World" in plain text.
+[Web Server in 16 Lines of Code]([/tree/main/crust) | 16 lines of Rust, using Axum and Tokio to provide a simple web service that returns "Hello World" in plain text.
 [Add JSON with 10 more Lines of Code](./tree/main/hellojson_webservice/) | 10 more lines of Rust, using Axum, Tokio and Serde to provide a simple web service that returns "Hello World" in JSON.
 [Web Service with SQLite and JSON](./tree/main/hellodb_webservice/) | We're up to 35 lines of Rust, and 8 lines of SQL now. SQLX applies database migrations on startup, and provides compile-time validation of SQL queries. Each request queries the database, serializes to JSON, and returns the result.
 [How fast is the webservice?](./tree/main/hellodb_timed_client/) | Create a simple CLI tool that calls the web service we've created, and times responses.

@@ -2,6 +2,8 @@
 
 ## By Herbert Wolverson ( herbert.wolverson@ardanlabs.com )
 
+![](https://github.com/thebracket/ArdanUltimateRustFoundations/blob/main/images/ardanlabs-logo.png)
+
 Accompanying code for the presentation on YouTube. The slide deck accompanying the
 presentation is [here](./SlideDeck.pdf).
 
